@@ -21,9 +21,11 @@ A full-stack productivity app built with **React**, **Node.js**, and **Google Sh
 
 | Todo List (Dark) | Week Planner | Light Mode |
 |---|---|---|
-|<img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/4fc0436a-b84f-4361-ad62-f4848179e48d" />
- |  <img width="1481" height="750" alt="image" src="https://github.com/user-attachments/assets/3ed169e7-4257-43fb-b574-9b692217690f" />
-|  <img width="1442" height="804" alt="image" src="https://github.com/user-attachments/assets/3396919e-263c-449c-9ab4-e39327330d2e" />
+|<img width="1437" height="808" alt="image" src="https://github.com/user-attachments/assets/db4512bd-6b96-43bc-a600-b383ff046e46" />
+
+ | <img width="1430" height="731" alt="image" src="https://github.com/user-attachments/assets/9e6f25f1-3940-4b9c-bf96-537cc64dd0e2" />
+
+| <img width="1431" height="807" alt="image" src="https://github.com/user-attachments/assets/91b49c29-0b8c-43d8-b837-e01c5efa78d6" /> 
 |
 
 ---
