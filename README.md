@@ -25,7 +25,7 @@ A full-stack productivity app built with **React**, **Node.js**, and **Google Sh
 
  | <img width="1430" height="731" alt="image" src="https://github.com/user-attachments/assets/9e6f25f1-3940-4b9c-bf96-537cc64dd0e2" />
 
-| <img width="1431" height="807" alt="image" src="https://github.com/user-attachments/assets/91b49c29-0b8c-43d8-b837-e01c5efa78d6" /> />
+| <img width="1431" height="807" alt="image" src="https://github.com/user-attachments/assets/91b49c29-0b8c-43d8-b837-e01c5efa78d6" /> 
 |
 
 ---
