@@ -267,9 +267,9 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- GitHub: [@yourusername](https://github.com/rohityk-2025)
+- LinkedIn: [your-linkedin](www.linkedin.com/in/rohitykavathekar)
+- Portfolio: [yourportfolio.com](https://rohit-dev.netlify.app)
 
 ---
 
