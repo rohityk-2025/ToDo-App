@@ -1,0 +1,82 @@
+.todo-input {
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.todo-input__row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.todo-input__field {
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+  min-width: 0;
+}
+
+.todo-input__add-btn {
+  background: linear-gradient(135deg, #6ee7b7, #3b82f6);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #0d0d14;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: opacity 0.15s, transform 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.todo-input__add-btn:hover {
+  opacity: 0.85;
+  transform: scale(0.97);
+}
+
+.todo-input__pills {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.todo-input__pills--tags {
+  margin-top: 8px;
+}
+
+.todo-input__label {
+  font-size: 11px;
+}
+
+.todo-input__tag-toggle {
+  background: none;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-bottom: 0;
+  transition: all 0.15s;
+}
+
+/* ── Responsive ── */
+@media (max-width: 480px) {
+  .todo-input {
+    padding: 14px;
+  }
+  .todo-input__add-btn {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}

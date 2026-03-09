@@ -1,0 +1,118 @@
+.week-planner {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.week-planner__eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.week-planner__title {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 6px;
+}
+
+.week-planner__sub {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* unplanned dock */
+.week-planner__dock {
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 20px;
+}
+
+.week-planner__dock-label {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.week-planner__dock-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.week-planner__dock-chip {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: grab;
+  transition: background 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.week-planner__dock-chip:active {
+  cursor: grabbing;
+}
+
+.week-planner__dock-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* 2×2 grid */
+.week-planner__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+/* legend */
+.week-planner__legend {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.week-planner__legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.week-planner__legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .week-planner__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* stack to single column on very small phones */
+  .week-planner__grid {
+    grid-template-columns: 1fr;
+  }
+  .week-planner__legend {
+    gap: 8px;
+    font-size: 10px;
+  }
+}

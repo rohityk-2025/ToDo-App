@@ -1,0 +1,39 @@
+.matrix-card {
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  animation: slideIn 0.2s ease forwards;
+}
+
+.matrix-card__top {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.matrix-card__text {
+  flex: 1;
+  font-size: 12px;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.matrix-card__remove {
+  background: none;
+  border: none;
+  font-size: 14px;
+  line-height: 1;
+  flex-shrink: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.matrix-card__chips {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+/* chip is shared — defined in TodoItem.css */
